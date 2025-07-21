@@ -10,7 +10,7 @@ module.exports = {
       port: 5432,
       user: process.env.PG_USER,
       password: process.env.PG_PASS,
-      database: "best_banking_app",
+      database: "my_bank",
     },
     migrations: {
       tableName: "knex_migrations",
